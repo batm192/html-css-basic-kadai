@@ -1,8 +1,10 @@
+html {
+    font-size: 20px;
+}
+
 body {
     font-family: "Arial", "Meiryo", sans-serif;
-    font-size: 20px;
     text-align: center;
-    letter-spacing: 1.5rem;
 }
 
 h1 {
