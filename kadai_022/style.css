@@ -23,8 +23,7 @@ main {
 
 #parent {
   display: flex;
-  justify-content: space-between;
-  padding:10px
+  justify-content: space-around;
 }
 
 .contents {
@@ -80,6 +79,9 @@ a:hover {
         font-size: 25px;
     }
     #parent {
-        display: block;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+
     }
 }
